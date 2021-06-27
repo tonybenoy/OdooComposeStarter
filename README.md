@@ -16,7 +16,7 @@ This is heavily inspired from [nginx-certbot](https://github.com/wmnnd/nginx-cer
 
         docker-compose build
 
-5.  Run the init script:
+5.  Run the init script(Ensure that you have made the appropriate dns mapping for the server at your domain provider):
 
         ./init-cert.sh
 
@@ -27,3 +27,7 @@ This is heavily inspired from [nginx-certbot](https://github.com/wmnnd/nginx-cer
 ## Adding custom addons
 
 Make a folder called `addons` and add your addons there and restart your server with `docker-compose down` and `docker-compose up -d`
+
+## Changing odoo version
+
+Change the base image in Dockerfile
