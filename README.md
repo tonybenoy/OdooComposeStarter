@@ -21,4 +21,5 @@ This is heavily inspired from [nginx-certbot](https://github.com/wmnnd/nginx-cer
         ./init-cert.sh
 
 6.  Start
-    docker-compose up
+
+        docker-compose up
