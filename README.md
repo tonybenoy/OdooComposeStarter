@@ -22,4 +22,8 @@ This is heavily inspired from [nginx-certbot](https://github.com/wmnnd/nginx-cer
 
 6.  Start
 
-        docker-compose up
+        docker-compose up -d
+
+## Adding custom addons
+
+Make a folder called `addons` and add your addons there and restart your server with `docker-compose down` and `docker-compose up -d`
